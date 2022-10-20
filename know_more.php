@@ -39,7 +39,7 @@ include('./includes/header.php');
 		realizarlo sin afectar a la persona en su vida cotidiana, esto se hace a partir del consumo
 		balanceado de carbohidratos, proteínas, vitaminas, minerales, nutrientes y lípidos. Finalmente
 		se tiene que tener en cuenta que una alimentación adecuada y balanceada permite alcanzar un
-	    	mejor rendimiento físico, estado de salud, evitar lesiones de gravedad y en general, todos los
+	    mejor rendimiento físico, estado de salud, evitar lesiones de gravedad y en general, todos los
 		aspectos del cuerpo.
 		</p>
 	    </div>

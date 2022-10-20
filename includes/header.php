@@ -76,7 +76,7 @@ function prepare_data($data, $link) {
 		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 	    </form>
     -->
-	    <button type="button" class="btn btn-primary">Registrarse</button>
-	    <button type="button" class="btn btn-secondary">Loguearse</button>
+	    <a type="button" class="btn btn-primary" href="./register.php">Registrarse</a>
+	    <a type="button" class="btn btn-secondary" href="./log_in.php">Loguearse</a>
 	</div>
     </nav>

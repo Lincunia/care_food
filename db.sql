@@ -5,6 +5,14 @@ CREATE TABLE IF NOT EXISTS products(
     name VARCHAR(25),
     prize INT
 );
+CREATE TABLE IF NOT EXISTS users(
+    id INT,
+    name VARCHAR(50),
+    surname VARCHAR(50),
+    lev VARCHAR(3),
+    phone_num VARCHAR(11),
+    email VARCHAR(100)
+);
 
 INSERT INTO products (image, name, prize) VALUES
 ('1658172677_1', 'la_wea', 1000),

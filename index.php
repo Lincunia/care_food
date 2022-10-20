@@ -1,9 +1,6 @@
 <?php
 include('./includes/header.php');
 ?>
-
-<link rel="stylesheet" href="./includes/custom.css">
-
 <div class="content-center-lg">
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
 	<ol class="carousel-indicators">
