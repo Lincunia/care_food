@@ -7,16 +7,23 @@ include('./includes/header.php');
 	    <div class="card">
 		<div class="card-body">
 		    <form action="./functions/read.php" method="POST">
-                <h1>Iniciar sesión</h1>
-                <div class="form-group">
-                    <input type="number" class="form-control" name="" placeholder="Identificación">
-                </div>
-                <div class="form-group">
-                    <input type="number" class="form-control" name="" placeholder="Identificación">
-                </div>
-                <div class="form-group">
-                    <button class="btn btn-success btn-block" name="check_out">Guargar información</button>
-                </div>
+		<h1>Iniciar sesión</h1>
+		<div class="form-group">
+		    <input type="email" class="form-control" name="email" placeholder="Correo electrónico">
+		</div>
+		<div class="form-group">
+		    <input type="number" class="form-control" name="id" placeholder="Identificación">
+		</div>
+<?php if(isset($_SESSION['message']) || isset($_SESSION['prop'])){?>
+<div class="<?= $_SESSION['prop'] ?>" role="alert">
+<?= $_SESSION['message'] ?>
+</div>
+<?php
+unset($_SESSION);
+}
+		<div class="form-group">
+		    <button class="btn btn-success btn-block" name="check_out">Guargar información</button>
+		</div>
 		    </form>
 		</div>
 	    </div>
